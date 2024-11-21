@@ -1,0 +1,82 @@
+.user-bill-list {
+  background-color: #f6f6f6;
+  height: 100vh;
+  overflow: hidden;
+  .user {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    p {
+      font-size: 0.5rem;
+      margin-left: 0.3rem;
+    }
+  }
+  .user-empty {
+    font-size: 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    color: #333;
+    button {
+      font-size: 0.45rem;
+    }
+  }
+  .bill-list {
+    padding: 0 0.3rem;
+    margin-top: 0.2rem;
+    overflow-y: auto;
+    height: 75vh;
+    // height: 10.5rem;
+    flex: 1;
+    .bill-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      padding: 0.3rem;
+      border-radius: 0.18rem;
+      margin-bottom: 0.2rem;
+
+      .pay-peo {
+        color: #000;
+        font-size: 0.45rem;
+      }
+
+      .pay-date {
+        color: #666;
+        font-size: 0.35rem;
+      }
+
+      .pay-preview {
+        color: #666;
+        font-size: 0.35rem;
+
+        span {
+          margin-right: 0.2rem;
+        }
+      }
+    }
+  }
+
+  .add-file {
+    width: 5rem;
+    font-size: 0.5rem;
+  }
+  .choose-user {
+    font-size: 0.4rem;
+    span {
+      display: inline-block;
+      width: 1.4rem;
+      text-align-last: justify;
+      margin-right: 0.5rem;
+    }
+  }
+  .check-icon {
+    float: right;
+    font-size: 0.5rem;
+    color: #1989FA;
+  }
+}
